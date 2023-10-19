@@ -1,0 +1,91 @@
+html {
+  margin: 0;
+}
+html body {
+  margin: 0;
+  background-color: #252525;
+}
+html body header {
+  background-color: #4b4b4b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: 0.2rem 0.1rem 0.2rem;
+}
+html body header h1 {
+  color: white;
+  font-family: 'Sen', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 2.5rem;
+}
+html body .sectionPhoto {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+html body .sectionPhoto figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  margin: 0;
+  border-radius: 50%;
+  top: -10%;
+}
+html body .section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+html body .section1 h2 {
+  color: white;
+  font-family: 'RocknRoll One', sans-serif;
+  text-align: center;
+}
+html body .section1 p {
+  color: white;
+  font-family: 'RocknRoll One', sans-serif;
+}
+html body .section1 article {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+html body .section1 article:nth-of-type(1) {
+  background-color: black;
+  height: 3rem;
+}
+html body .section1 article:nth-of-type(2) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+html body .section1 article:nth-of-type(2) div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  width: 45%;
+}
+html body .section1 article:nth-of-type(3) {
+  display: flex;
+  justify-content: space-between;
+}
+html body .section1 article:nth-of-type(3) div {
+  width: 45%;
+  height: 2rem;
+  background-color: black;
+}
