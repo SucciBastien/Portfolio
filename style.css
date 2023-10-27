@@ -57,6 +57,25 @@ html body .section1 p {
   color: white;
   font-family: 'RocknRoll One', sans-serif;
 }
+html body .section1 label:nth-of-type(1) {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  padding-top: 1rem;
+  padding-bottom: 0.75rem;
+  margin-bottom: 2rem;
+  height: 1.5rem;
+  width: 80%;
+  color: white;
+  overflow: hidden;
+  font-family: 'RocknRoll One', sans-serif;
+}
+html body .section1 label p {
+  padding: 0rem 2rem;
+  text-align: center;
+}
 html body .section1 article {
   width: 80%;
   display: flex;
@@ -64,9 +83,27 @@ html body .section1 article {
   align-items: center;
   margin-bottom: 2rem;
 }
-html body .section1 article:nth-of-type(1) {
+html body .section1 article:nth-of-type(1) input {
+  display: none;
+}
+html body .section1 article:nth-of-type(1) label {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
   background-color: black;
-  height: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 0.75rem;
+  margin-bottom: 2rem;
+  height: 1.5rem;
+  width: 100%;
+  color: white;
+  overflow: hidden;
+  font-family: 'RocknRoll One', sans-serif;
+  transition: 0.5s ease-in-out;
+}
+html body .section1 article:nth-of-type(1) input:checked + label {
+  height: 10rem;
 }
 html body .section1 article:nth-of-type(2) {
   display: flex;
@@ -81,6 +118,30 @@ html body .section1 article:nth-of-type(2) div {
   flex-direction: column;
   background-color: black;
   width: 45%;
+}
+html body .section1 article:nth-of-type(2) div input {
+  display: none;
+}
+html body .section1 article:nth-of-type(2) div label {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  padding-top: 1rem;
+  padding-bottom: 0.75rem;
+  margin-bottom: 2rem;
+  height: 1.5rem;
+  width: 100%;
+  color: white;
+  overflow: hidden;
+  font-family: 'RocknRoll One', sans-serif;
+  transition: max 0.5s ease-in-out;
+  max-height: 100rem;
+}
+html body .section1 article:nth-of-type(2) div input:checked + label {
+  height: auto;
+  transition: 3s ease-in-out;
 }
 html body .section1 article:nth-of-type(3) {
   display: flex;
